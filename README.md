@@ -96,6 +96,7 @@ https://openweathermap.org/api/one-call-api#history-how
 ---
 ---
 ---
+
 ## Bases de datos
 
 1. Se deben dejar disponibles los scripts de creación de las tablas utilizadas.
