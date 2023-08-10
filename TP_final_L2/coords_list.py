@@ -3,7 +3,7 @@
 # Define a list of coordinates of the cities you wish to query
 coords_list = [
     (-27.4511, -58.9866),   # Resistencia, AR
-    # (51.512791, -0.09184),     # City of London, GB
+    (51.512791, -0.09184),     # City of London, GB
     # (40.714272, -74.005966),   # New York, US
     # (25.025881, 121.651611),   # Taipei, TW
     # (37.90448, -4.77768),      # Cordoba, ES
