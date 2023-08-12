@@ -1,10 +1,10 @@
 from datetime import datetime, timedelta
 
 
-# Esta función procesa los datos meteorológicos obtenidos de la API y extrae
-#  la información relevante, como la temperatura, descripción, etc.
-# Devuelve un diccionario con los datos procesados listos para ser almacenados o utilizados posteriormente.
-# Devuelve un diccionario que contiene los datos obtenidos de la API del clima.
+# This function processes the weather data obtained from the API
+#  and extracts the relevant information such as temperature, description, etc.
+# Returns a dictionary containing the processed data ready to be stored or used later.
+# Returns a dictionary containing the data obtained from the weather API.
 def process_weather_data(weather_data_list):
     processed_data_list = []
 
@@ -22,15 +22,15 @@ def process_weather_data(weather_data_list):
         sunset_utc = int(data['sys']['sunset'])
         dt_utc = int(data['dt'])
 
-        # solo la hora
+        # only the time.
         sunrise_local = datetime.fromtimestamp(sunrise_utc).time().isoformat()
         sunset_local = datetime.fromtimestamp(sunset_utc).time().isoformat()
         # dt_local = datetime.fromtimestamp(dt_utc).time().isoformat()
 
-        # Obtener el objeto datetime completo
+        # Get the complete datetime object.
         dt_local_datetime = datetime.fromtimestamp(dt_utc)
 
-        # Restar tres horas al valor de dt_local_datetime
+        # Subtract three hours from the value of dt_local_datetime.
         dt_colab = (
             dt_local_datetime - timedelta(hours=3)).isoformat()
 

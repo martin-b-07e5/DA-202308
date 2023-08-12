@@ -71,10 +71,10 @@ coordList = ["lat=31&lon=64", "lat=40&lon=-73", "lat=-31&lon=-64", "lat=25&lon=6
 
 1. ✅La descarga, procesamiento y actualización de la información en la **base de datos**
 se debe poder ejecutar desde un archivo .py
-2. 👷El proyecto debe poder deployarse en forma sencilla siguiendo un **readme,** que al menos contenga las **instrucciones** para:
-    1.  Utilizarse creando un entorno virtual (venv)
-    2. Instalar las dependencias necesarias con pip.
-    3. Configurar la conexión a la base de datos.
+2. ✅El proyecto debe poder deployarse en forma sencilla siguiendo un **readme,** que al menos contenga las **instrucciones** para:
+    ✅1.  Utilizarse creando un entorno virtual (venv)
+    ✅2. Instalar las dependencias necesarias con pip.
+    👷3. Configurar la conexión a la base de datos.
 
 ### Enpoint:
 
@@ -89,9 +89,9 @@ https://openweathermap.org/api/one-call-api#history-how
 
 ✅**Tomar 5 días de cada ciudad.**
 
-1. Normalizar Tabla teniendo en cuenta el formato y el tipo de dato contenido en cada columna.
-2. Las configuraciones necesarias para que el proyecto se ejecute deben poder, configurarse desde un archivo config.py
-3. Realizar los comentarios correspondientes para su correcta documentación con docstrings(’’’ ‘’’).
+✅1. Normalizar Tabla teniendo en cuenta el formato y el tipo de dato contenido en cada columna.
+✅2. Las configuraciones necesarias para que el proyecto se ejecute deben poder, configurarse desde un archivo config.py
+✅3. Realizar los comentarios correspondientes para su correcta documentación con docstrings(’’’ ‘’’).
 
 ---
 ---
